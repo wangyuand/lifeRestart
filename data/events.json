@@ -2709,10 +2709,10 @@
         "event": "你从盒子中获得了练气法门，突破到凝气一层。",
         "postEvent": "寿元提升到200年。",
         "effect": {
-            "CHR": 3,
-            "INT": 3,
-            "STR": 3,
-            "SPR": 2
+            "CHR": 30,
+            "INT": 30,
+            "STR": 30,
+            "SPR": 20
         },
         "include": "TLT?[1048]",
         "exclude": "EVT?[10323]"
@@ -2722,7 +2722,7 @@
         "event": "练气。",
         "postEvent": "体质提升。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "TLT?[1048]",
         "exclude": "EVT?[10333]"
@@ -2731,7 +2731,7 @@
         "id": 10325,
         "event": "你突破到凝气二层。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "(EVT?[10323])&(STR>10)&(TLT?[1048])",
         "exclude": "EVT?[10325]"
@@ -2740,7 +2740,7 @@
         "id": 10326,
         "event": "你突破到凝气三层。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "(EVT?[10325])&(STR>12)&(TLT?[1048])",
         "exclude": "EVT?[10326]"
@@ -2749,7 +2749,7 @@
         "id": 10327,
         "event": "你突破到凝气四层。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "(EVT?[10326])&(STR>15)&(TLT?[1048])",
         "exclude": "EVT?[10327]"
@@ -2758,7 +2758,7 @@
         "id": 10328,
         "event": "你突破到凝气五层。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "(EVT?[10327])&(STR>20)&(TLT?[1048])",
         "exclude": "EVT?[10328]"
@@ -2776,7 +2776,7 @@
         "id": 10330,
         "event": "你突破到凝气七层。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "(EVT?[10329])&(STR>30)&(TLT?[1048])",
         "exclude": "EVT?[10330]"
@@ -2794,7 +2794,7 @@
         "id": 10332,
         "event": "你突破到凝气九层。",
         "effect": {
-            "STR": 1
+            "STR": 10
         },
         "include": "(EVT?[10331])&(STR>50)&(TLT?[1048])",
         "exclude": "EVT?[10332]"
@@ -2831,7 +2831,7 @@
         "event": "锻体。",
         "postEvent": "体质提升。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10333])&(STR>100)&(TLT?[1048])",
         "exclude": "EVT?[10345,10361]"
@@ -2840,7 +2840,7 @@
         "id": 10337,
         "event": "你突破到筑基二层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10333])&(STR>120)&(TLT?[1048])",
         "exclude": "EVT?[10337]"
@@ -2849,7 +2849,7 @@
         "id": 10338,
         "event": "你突破到筑基三层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10337])&(STR>140)&(TLT?[1048])",
         "exclude": "EVT?[10338]"
@@ -2858,7 +2858,7 @@
         "id": 10339,
         "event": "你突破到筑基四层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10338])&(STR>160)&(TLT?[1048])",
         "exclude": "EVT?[10339]"
@@ -2867,7 +2867,7 @@
         "id": 10340,
         "event": "你突破到筑基五层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10339])&(STR>190)&(TLT?[1048])",
         "exclude": "EVT?[10340]"
@@ -2885,7 +2885,7 @@
         "id": 10342,
         "event": "你突破到筑基七层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10341])&(STR>250)&(TLT?[1048])",
         "exclude": "EVT?[10342]"
@@ -2894,7 +2894,7 @@
         "id": 10343,
         "event": "你突破到筑基八层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10342])&(STR>280)&(TLT?[1048])",
         "exclude": "EVT?[10343]"
@@ -2903,7 +2903,7 @@
         "id": 10344,
         "event": "你突破到筑基九层。",
         "effect": {
-            "STR": 2
+            "STR": 20
         },
         "include": "(EVT?[10343])&(STR>320)&(TLT?[1048])",
         "exclude": "EVT?[10344]"
@@ -2970,7 +2970,7 @@
         "id": 10351,
         "event": "周天经脉通畅，体质再次提升。",
         "effect": {
-            "STR": 5
+            "STR": 50
         },
         "include": "(EVT?[10333])&(STR>100)&(TLT?[1048])"
     },
@@ -2978,8 +2978,8 @@
         "id": 10352,
         "event": "你突破到金丹三层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10348])&(STR>500)&(INT>15)&(TLT?[1048])",
         "exclude": "EVT?[10352]"
@@ -2988,8 +2988,8 @@
         "id": 10353,
         "event": "你突破到金丹四层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10352])&(STR>550)&(INT>20)&(TLT?[1048])",
         "exclude": "EVT?[10353]"
@@ -2998,8 +2998,8 @@
         "id": 10354,
         "event": "你突破到金丹五层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10353])&(STR>600)&(INT>30)&(TLT?[1048])",
         "exclude": "EVT?[10354]"
@@ -3008,8 +3008,8 @@
         "id": 10355,
         "event": "你突破到金丹六层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10354])&(STR>650)&(INT>40)&(TLT?[1048])",
         "exclude": "EVT?[10355]"
@@ -3018,8 +3018,8 @@
         "id": 10356,
         "event": "你突破到金丹七层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10355])&(STR>700)&(INT>50)&(TLT?[1048])",
         "exclude": "EVT?[10356]"
@@ -3028,8 +3028,8 @@
         "id": 10357,
         "event": "你突破到金丹八层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10356])&(STR>750)&(INT>65)&(TLT?[1048])",
         "exclude": "EVT?[10357]"
@@ -3038,8 +3038,8 @@
         "id": 10358,
         "event": "你突破到金丹九层。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10357])&(STR>850)&(INT>80)&(TLT?[1048])",
         "exclude": "EVT?[10358]"
@@ -3082,8 +3082,8 @@
         "event": "蕴丹。",
         "postEvent": "体质、智力提升。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 10,
+            "STR": 30
         },
         "include": "(EVT?[10345,10361])&(STR>400)&(TLT?[1048])",
         "exclude": "EVT?[10365]"
@@ -3130,7 +3130,7 @@
         "id": 10367,
         "event": "悟道。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])"
     },
@@ -3147,7 +3147,7 @@
         "id": 10369,
         "event": "你突破到元婴二层。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10365])&(INT>150)&(TLT?[1048])",
         "exclude": "EVT?[10369]"
@@ -3156,7 +3156,7 @@
         "id": 10370,
         "event": "你突破到元婴三层。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10369])&(INT>180)&(TLT?[1048])",
         "exclude": "EVT?[10370]"
@@ -3165,7 +3165,7 @@
         "id": 10371,
         "event": "你突破到元婴四层。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10370])&(INT>210)&(TLT?[1048])",
         "exclude": "EVT?[10371]"
@@ -3174,7 +3174,7 @@
         "id": 10372,
         "event": "你突破到元婴五层。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10371])&(INT>240)&(TLT?[1048])",
         "exclude": "EVT?[10372]"
@@ -3192,7 +3192,7 @@
         "id": 10374,
         "event": "你突破到元婴七层。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10373])&(INT>320)&(TLT?[1048])",
         "exclude": "EVT?[10374]"
@@ -3210,7 +3210,7 @@
         "id": 10376,
         "event": "你突破到元婴九层。",
         "effect": {
-            "INT": 2
+            "INT": 20
         },
         "include": "(EVT?[10375])&(INT>400)&(TLT?[1048])",
         "exclude": "EVT?[10376]"
@@ -3229,8 +3229,8 @@
         "id": 10378,
         "event": "准备渡劫。",
         "effect": {
-            "INT": 1,
-            "STR": 10
+            "INT": 10,
+            "STR": 100
         },
         "include": "(EVT?[10377])&(INT>500)&(TLT?[1048])",
         "exclude": "EVT?[10378]"
@@ -3248,8 +3248,8 @@
         "id": 10380,
         "event": "你悟出水之大道。",
         "effect": {
-            "INT": 20,
-            "STR": 20
+            "INT": 200,
+            "STR": 200
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])",
         "exclude": "EVT?[10380]"
@@ -3258,8 +3258,8 @@
         "id": 10381,
         "event": "你悟出火之大道。",
         "effect": {
-            "INT": 20,
-            "STR": 20
+            "INT": 200,
+            "STR": 200
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])",
         "exclude": "EVT?[10381]"
@@ -3278,8 +3278,8 @@
         "id": 10383,
         "event": "你悟出木之大道。",
         "effect": {
-            "INT": 20,
-            "STR": 20
+            "INT": 200,
+            "STR": 200
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])",
         "exclude": "EVT?[10383]"
@@ -3288,8 +3288,8 @@
         "id": 10384,
         "event": "你悟出土之大道。",
         "effect": {
-            "INT": 20,
-            "STR": 20
+            "INT": 200,
+            "STR": 200
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])",
         "exclude": "EVT?[10384]"
@@ -3298,7 +3298,7 @@
         "id": 10385,
         "event": "你进入顿悟状态。",
         "effect": {
-            "INT": 20
+            "INT": 200
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])"
     },
