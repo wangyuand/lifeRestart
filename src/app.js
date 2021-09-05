@@ -102,7 +102,7 @@ class App{
                                 li.removeClass('selected')
                                 this.#talentSelected.delete(talent);
                             } else {
-                                if(this.#talentSelected.size==10) {
+                                if(this.#talentSelected.size==3) {
                                     this.hint('只能选10个天赋');
                                     return;
                                 }
@@ -130,7 +130,7 @@ class App{
         talentPage
             .find('#next')
             .click(()=>{
-                if(this.#talentSelected.size!=10) {
+                if(this.#talentSelected.size!=3) {
                     this.hint('请选择10个天赋');
                     return;
                 }
